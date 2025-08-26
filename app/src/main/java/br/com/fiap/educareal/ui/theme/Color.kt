@@ -2,6 +2,10 @@ package br.com.fiap.educareal.ui.theme
 
 import androidx.compose.ui.graphics.Color
 
+val DarkPurple = Color(0xFF8B008B) // Roxo
+val FinancialBlack = Color(0xFF000000) // Preto
+val FinancialWhite = Color(0xFFFAFAFA) // Branco
+
 val Purple80 = Color(0xFFD0BCFF)
 val PurpleGrey80 = Color(0xFFCCC2DC)
 val Pink80 = Color(0xFFEFB8C8)
