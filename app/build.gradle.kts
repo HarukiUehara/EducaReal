@@ -40,7 +40,7 @@ android {
 }
 
 dependencies {
-
+    // Dependências de componentes que já estavam no projeto
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.lifecycle.runtime.ktx)
     implementation(libs.androidx.activity.compose)
@@ -56,4 +56,8 @@ dependencies {
     androidTestImplementation(libs.androidx.ui.test.junit4)
     debugImplementation(libs.androidx.ui.tooling)
     debugImplementation(libs.androidx.ui.test.manifest)
+
+    // Novas dependências para navegação e fontes
+    implementation(libs.androidx.navigation.compose)
+    implementation(libs.androidx.ui.text.google.fonts)
 }

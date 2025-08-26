@@ -8,11 +8,10 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.sp
 import br.com.fiap.educareal.R
 
-val NotoSans = FontFamily(Font(R.font.noto_sans)) // Supondo que você nomeou o arquivo como noto_sans.ttf
-val Rubik = FontFamily(Font(R.font.rubik)) // Supondo que você nomeou o arquivo como rubik.ttf
-val OpenSans = FontFamily(Font(R.font.open_sans)) // Supondo que você nomeou o arquivo como open_sans.ttf
-
-// Defina o conjunto de estilos de tipografia
+val NotoSans = FontFamily(Font(R.font.noto_sans))
+val Rubik = FontFamily(Font(R.font.rubik))
+val OpenSans = FontFamily(Font(R.font.open_sans))
+// Define o conjunto de estilos de tipografia
 val Typography = Typography(
     displayLarge = TextStyle(
         fontFamily = NotoSans,
