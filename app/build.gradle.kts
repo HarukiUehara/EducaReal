@@ -60,4 +60,8 @@ dependencies {
     // Novas dependências para navegação e fontes
     implementation(libs.androidx.navigation.compose)
     implementation(libs.androidx.ui.text.google.fonts)
+
+    // lógica para exibir uma lista de cursos
+    implementation("androidx.compose.material3:material3-window-size-class:1.1.2")
+    implementation("androidx.compose.material3:material3:1.1.2")
 }
