@@ -64,4 +64,10 @@ dependencies {
     // lógica para exibir uma lista de cursos
     implementation("androidx.compose.material3:material3-window-size-class:1.1.2")
     implementation("androidx.compose.material3:material3:1.1.2")
+
+    //Icons Extended for curses page
+    implementation("androidx.compose.material:material-icons-extended:1.6.8")
+
+    // Icon for news page
+    implementation("androidx.compose.material:material-icons-extended:1.6.8")
 }
